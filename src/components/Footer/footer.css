@@ -1,0 +1,203 @@
+@media (max-width: 768px) {
+    hr {
+        height: 3px;
+        border: none;
+        background-color: #dddcdc2d;
+        margin: 60px 0 0;
+    }
+    
+    .footer-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .maisPopulares {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 30px 14px;
+        margin-bottom: 30px;
+    }
+    
+    .maisPopulares_texto {
+        margin-bottom: 5px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-left: 5px solid black;
+        padding: 8px 0 8px 8px;
+    }
+    
+    .maisPopulares h1 {
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.9rem;
+    }
+
+    .maisPopulares .botoes {
+        width: 130px;
+        height: 40px;
+        display: flex;
+        gap: 10px;
+    }
+
+    #btn-left, #btn-right {
+        background: none;
+        border: 1px solid #dddcdc2d;
+        border-radius: 6px;
+        width: 50%;
+        height: 100%;
+        font-size: 20px;
+        color: #dddcdc2d;
+        cursor: pointer;
+    }
+    
+    .maisPopulares_container {
+        width: 100%;
+        position: relative;
+        display: flex;
+        gap: 15px;
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+    
+    .maisPopulares_container a {
+        text-decoration: none;
+        transition: transform .6s ease;
+    }
+    
+    .maisPopulares_container img {
+        width: 150px;
+        height: 225px;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+    
+    .maisPopulares_container strong {
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 1rem;
+        padding-left: 5px;
+    }
+
+    
+    
+    footer {
+        width: 100%;
+        background-color: #262526;
+        color: #fff;
+        padding: 15px;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-content h3 {
+        border-left: 5px solid black;
+        padding: 14px 0 14px 8px;
+    }
+
+    .footer-content__home {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .footer-content__home a {
+        font-weight: bold;
+        padding: 15px;
+        background-color: #ccc;
+        color: #000;
+        border-radius: 10px;
+        transition: .2s ease;
+    }
+
+    .footer-content__home a:hover {
+        background-color: #262526;
+        color: #ccc;
+        border: 1px solid #ccc;
+    }
+
+    .footer-content__section-sobreNos, .footer-content__section-redesSociais {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-content__section-sobreNos div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-content__section-sobreNos div p {
+        text-align: justify;
+    }
+
+    .footer-content__section-sobreNos div img {
+        width: 100%;
+        object-fit: cover;
+        height: 120px;
+        border-radius: 10px;
+        filter: blur(0.6px);
+    }
+
+    .footer-content__section-redesSociais ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .footer-content__section-redesSociais ul li {
+        list-style: none;
+    }
+
+    .footer-content__section-redesSociais ul a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .footer-direitosProprios {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .footer-direitosProprios .direitosAutorais {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .footer-content__section-sobreNos div p {
+        font-size: 0.9rem;
+    }
+
+    .footer-content__section-redesSociais ul a {
+        gap: 3px;
+    }
+
+    .footer-content__section-redesSociais ul a span {
+        font-size: 0.9rem;
+    }
+}

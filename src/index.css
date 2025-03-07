@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(9, 65, 92);
+    background: linear-gradient(340deg, rgba(9,65,92,0.8631827731092436) 0%, rgba(1,18,39,1) 100%) no-repeat fixed;
+}
+.App {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
